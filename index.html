@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Professional Resume of SpongeBob Squarepants."/>
+<link rel="shortcut icon" href="./images/sponge.png" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<title>Resume of SpongeBob SquarePants</title>
+</head>
+<body>
+    
+    <!-- Navigation Section -->
+    <!-- navbar-dark makes white text, navbar-light makes black text -->
+    <!-- bg = background -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SpongeBob</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- ms = margin start, auto is sayinng whatever the available space is give that to this property -->
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#header">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    <main class="container my-5">
+        <!-- Header Section -->
+        <header class="
+            row 
+            bg-light 
+            rounded
+            border 
+            align-items-center 
+            py-4 
+            px-3 
+            px-md-0"
+            id="header">
+            <div class="col-12 col-md-4 d-flex justify-content-center">
+                <div class="
+                    rounded-circle 
+                    border 
+                    border-3 
+                    border-success 
+                    p-4 
+                    w-75 
+                    w-md-25 
+                    d-flex 
+                    justify-content-center">
+                    <img 
+                        src="./images/SpongeBob_SquarePants.webp" 
+                        alt="headshot image" 
+                        class="img-fluid">
+                </div>
+            </div>
+            <div class="col-12 col-md-8 text-center text-md-start mt-3 mt-md-0">
+                <h1 class="display-3 text-success">SpongeBob SquarePants</h1>
+                <p class="lead">Welcome to My Professional Resume</p>
+            </div> 
+        </header>
+        
+        <!-- same thing as <hr> HOWEVER can add color, width within 
+            html more easily -->
+        <div class="dropdown-divider bg-success my-5"></div>
+        
+        <!-- Contact Section -->
+        <nav class="row bg-light rounded p-3 justify-content-center justify-content-md-start text-center text-md-start">
+            <h4 class="text-success">Contact</h4>
+            <p>Email: sbsp@gmail.com</p>
+            <p>LinkedIn: 
+                <a href="#" class="text-decoration-none text-info">
+                    SpongeBob SquarePants
+                </a>
+            </p>
+            <a href="./contact.html"><button type="button" class="btn btn-outline-info w-25">Connect!</button></a>
+            
+        </nav>
+        
+        <!-- Skills Section -->
+        <section class="row bg-light rounded p-3 my-5" id="skills">
+            <h4 class="text-success">Skills</h4>
+            <div class="progress ps-0" role="progressbar" aria-label="html progress" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-info" style="width: 75%">HTML/CSS</div>
+              </div>
+              <div class="progress ps-0 my-3" role="progressbar" aria-label="javascript progress" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-warning" style="width: 50%">JavaScript</div>
+              </div>
+              <div class="progress ps-0" role="progressbar" aria-label="python progress" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-danger" style="width: 40%">Python</div>
+              </div>
+            
+        </section>
+        
+        <!-- Education Section -->
+        <section class="row rounded ">
+            
+            <div class="accordion accordion-flush" id="accordionEducationn">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingEducation">
+                    <!-- make sure your data-bs-target matches your id of your accordion details -->
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEducation" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <h4 class="text-success">Education</h4>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseEducation" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body bg-info">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="#" class="text-decoration-none text-success">
+                                    Bikini Bottom University,
+                                </a>
+                            </li>
+                            <li class="list-inline-item">Bachelor Degree,</li>
+                            <li class="list-inline-item">Graduated: 2020</li>
+                        </ul>
+                  </div>
+                </div>
+               
+            
+        </section>
+        
+        <!-- Work Section -->
+        <section class="row rounded">
+            
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseExperience" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <h4 class="text-success">Experience</h4>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseExperience" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body bg-info">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="#" class="text-decoration-none text-success">
+                                    Krusty Krab,
+                                </a>
+                            </li>
+                            <li class="list-inline-item">Head Chef,</li>
+                            <li class="list-inline-item">1997-Present</li>
+                        </ul>
+                  </div>
+                </div>
+            
+            
+        </section>
+        
+        <!-- Testimonials Section -->
+        <!-- row-cols-1 on parent == col-12 on child -->
+        <!-- row-cols-md-3 onn parent == col-md-4 on child -->
+        
+        <section class="row bg-light rounded text-white p-3 my-5 g-3">
+            <h4 class="text-success">Testimonials</h4>
+            <div class="row row-cols-1 row-cols-md-3 g-3">
+            <div class="col-12 col-md-4">
+            <div class="card bg-success">
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>"SpongeBob has been an amazing coworker, team player. 
+                        They are always willing to lend a hand."</p>
+                  </blockquote>
+                  <div class="card-footer pt-4">
+                    <p class="blockquote-footer text-white">Squidward, Manager at Krusty Krab</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-12 col-md-4">
+            <div class="card bg-success">
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>"SpongeBob has been an amazing coworker, team player. 
+                        They are always willing to lend a hand."</p>
+                  </blockquote>
+                  <div class="card-footer pt-4">
+                    <p class="blockquote-footer text-white">Squidward, Manager at Krusty Krab</p>
+                  </div>
+                </div>
+              </div>
+              </div>
+            
+            <div class="col-12 col-md-4">
+            <div class="card bg-success">
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>"SpongeBob has been an amazing coworker, team player. 
+                        They are always willing to lend a hand."</p>
+                  </blockquote>
+                  <div class="card-footer pt-4">
+                    <p class="blockquote-footer text-white">Squidward, Manager at Krusty Krab</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+              
+            
+        </section>
+        
+        <!-- Project Section -->
+        <section class="row bg-light rounded border p-3 my-5" id="projects">
+            <h4 class="text-success">Recent Projects</h4>
+            
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="https://www.google.com" target="_blank"><img src="./images/routewise.png" class="d-block w-100" alt="routewise project"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://www.google.com" target="_blank"><img src="./images/routewise.png" class="d-block w-100" alt="routewise project"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://www.google.com" target="_blank"><img src="./images/routewise.png" class="d-block w-100" alt="routewise project"></a>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            
+        </section>
+    </main>
+    
+    <footer class="container-fluid">
+        
+    </footer>
+    
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
